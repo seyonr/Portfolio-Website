@@ -15,6 +15,7 @@ import {
 } from './InfoElements';
 import Image from '../../images/svg-1.svg';
 import Image2 from '../../images/logos.jpg';
+import Resume from '../../files/Seyon_Resume.pdf';
 
 const InfoSection = () => {
   return (
@@ -27,7 +28,7 @@ const InfoSection = () => {
                     <Heading lightText={true}>About Me</Heading>
                     <Subtitle darkText={false}>I am an undergraduate Computer Science student at Ontario Tech University. I picked up a minor interest in coding during my adolescence when I started to question how websites and computers work, that interest eventually turned into a passion. I'm passionate about creating websites for entertainment and problem-solving purposes. </Subtitle>
                     <BtnWrap>
-                        <ButtonLink to="https://www.youtube.com/" target='_blank' smooth={true} duration={500} spy={true} exact={true} offset={-80} primary={true} dark={true}>Resume</ButtonLink>
+                        <ButtonLink to={Resume} target='_blank' smooth={true} duration={500} spy={true} exact={true} offset={-80} primary={true} dark={true}>Resume</ButtonLink>
                     </BtnWrap>
                 </TextWrapper>
                 </Column1>
