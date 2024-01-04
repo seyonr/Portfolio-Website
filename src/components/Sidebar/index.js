@@ -24,7 +24,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </SidebarMenu>
 
             <SideBtnWrap>
-                <SidebarRoute to='/contact'>Contact Me</SidebarRoute>
+                <SidebarRoute to="https://dreamy-khapse-a1e820.netlify.app/" target='_blank'>Contact Me</SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>

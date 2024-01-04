@@ -83,15 +83,16 @@ export const ProjectsH1 = styled.h1`
 export const ProjectsH2 = styled.h2`
     font-size: 1rem;
     margin-bottom: 10px;
+    font-weight: bold;
 `;
 
 export const ProjectsP = styled.p`
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
     margin-bottom: 20px;
 
     @media screen and (max-width: 480px) {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 `;
 
